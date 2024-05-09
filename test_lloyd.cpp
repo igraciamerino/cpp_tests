@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <random>
-#include <boost/chrono.hpp>
+#include <chrono>
 
 template <size_t N1, size_t N2, size_t d>
 double cluster_fcn(double (&W1)[N1][d], double (&W2)[N2][d], double (&weight1)[N1], bool &postprocess);

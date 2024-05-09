@@ -17,7 +17,7 @@ double dist2_sq_fcn(double (&x)[d], double (&y)[d]);
 
 int main()
 {
-    const int N1 = 100000000;
+    const int N1 = 100000;
     const int N2 = 200;
     const int d = 4;
     size_t N_iterations_lloyd = 10;

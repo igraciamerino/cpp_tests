@@ -5,7 +5,6 @@
 #include <random>
 #include <vector>
 #include <chrono>
-#include <unordered_map>
 
 /**
  * Class for representing a point. coordinate_type must be a numeric type.

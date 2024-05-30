@@ -583,8 +583,8 @@ int main()
     try
     {
         // Input params
-        size_t N1 = 100'000'000;
-        size_t N2 = 100'000;
+        size_t N1 = 10'000'000;
+        size_t N2 = 10'000;
         size_t p = 1;
         size_t N_iterations_lloyd = 10;
         size_t N = 1'000'000'000;

@@ -630,6 +630,7 @@ int main()
         // Clustering N
         // Initialize weights2 to zero
         std::fill(weights2.begin(), weights2.end(), 0.0);
+        W_dist = 0.0;
         std::cout << "Clustering N... " << '\n';
         auto start1 = std::chrono::system_clock::now();
         for (size_t i = 0; i < N; i++)
